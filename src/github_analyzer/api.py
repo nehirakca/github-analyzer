@@ -1,5 +1,5 @@
 import requests
-from typing import Optional,TypedDict
+from typing import Optional, TypedDict
 
 class User(TypedDict):
     login:str

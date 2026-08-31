@@ -1,5 +1,5 @@
 from typing import Optional, TypedDict
-from api import Repository, get_repositories
+from .api import Repository, get_repositories
 
 class AnalysisResult(TypedDict):
     languages:dict[str, int]
